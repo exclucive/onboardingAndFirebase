@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A61A9024CDFCFF7B5905FB33 /* libPods-WheelsTakeHome.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D617B9A2BF6DEA5066524DE /* libPods-WheelsTakeHome.a */; };
+		BBA630012237563800DC71E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA630002237563800DC71E8 /* AppDelegate.m */; };
+		BBA630042237563800DC71E8 /* UserProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA630032237563800DC71E8 /* UserProfileViewController.m */; };
+		BBA630072237563800DC71E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBA630052237563800DC71E8 /* Main.storyboard */; };
+		BBA630092237563900DC71E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBA630082237563900DC71E8 /* Assets.xcassets */; };
+		BBA6300C2237563900DC71E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBA6300A2237563900DC71E8 /* LaunchScreen.storyboard */; };
+		BBA6300F2237563900DC71E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA6300E2237563900DC71E8 /* main.m */; };
+		BBA6301B2237568D00DC71E8 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA6301A2237568D00DC71E8 /* User.m */; };
+		BBA6301E223756A500DC71E8 /* NetworkUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA6301D223756A500DC71E8 /* NetworkUserManager.m */; };
+		BBA63020223756B200DC71E8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BBA6301F223756B200DC71E8 /* GoogleService-Info.plist */; };
+		BBA63023223758F800DC71E8 /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA63022223758F800DC71E8 /* UserInfoViewController.m */; };
+		BBA630262237592400DC71E8 /* UserPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA630252237592400DC71E8 /* UserPictureViewController.m */; };
+		BBA6302922375F8600DC71E8 /* UIAlertController+Wheels.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA6302822375F8600DC71E8 /* UIAlertController+Wheels.m */; };
+		BBA6302C2237629800DC71E8 /* NSString+Wheels.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA6302B2237629800DC71E8 /* NSString+Wheels.m */; };
+		BBA6302F2237634100DC71E8 /* UserInfoFormValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA6302E2237634100DC71E8 /* UserInfoFormValidator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D617B9A2BF6DEA5066524DE /* libPods-WheelsTakeHome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WheelsTakeHome.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75C7216AC564E350B9C24125 /* Pods-WheelsTakeHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WheelsTakeHome.release.xcconfig"; path = "Pods/Target Support Files/Pods-WheelsTakeHome/Pods-WheelsTakeHome.release.xcconfig"; sourceTree = "<group>"; };
+		75F2DD60CD2BD7ABE42007FC /* Pods-WheelsTakeHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WheelsTakeHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WheelsTakeHome/Pods-WheelsTakeHome.debug.xcconfig"; sourceTree = "<group>"; };
+		BBA62FFC2237563800DC71E8 /* WheelsTakeHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WheelsTakeHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBA62FFF2237563800DC71E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BBA630002237563800DC71E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BBA630022237563800DC71E8 /* UserProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserProfileViewController.h; sourceTree = "<group>"; };
+		BBA630032237563800DC71E8 /* UserProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserProfileViewController.m; sourceTree = "<group>"; };
+		BBA630062237563800DC71E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBA630082237563900DC71E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBA6300B2237563900DC71E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BBA6300D2237563900DC71E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBA6300E2237563900DC71E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BBA630192237568D00DC71E8 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		BBA6301A2237568D00DC71E8 /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		BBA6301C223756A500DC71E8 /* NetworkUserManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkUserManager.h; sourceTree = "<group>"; };
+		BBA6301D223756A500DC71E8 /* NetworkUserManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkUserManager.m; sourceTree = "<group>"; };
+		BBA6301F223756B200DC71E8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BBA63021223758F800DC71E8 /* UserInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfoViewController.h; sourceTree = "<group>"; };
+		BBA63022223758F800DC71E8 /* UserInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfoViewController.m; sourceTree = "<group>"; };
+		BBA630242237592400DC71E8 /* UserPictureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserPictureViewController.h; sourceTree = "<group>"; };
+		BBA630252237592400DC71E8 /* UserPictureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserPictureViewController.m; sourceTree = "<group>"; };
+		BBA6302722375F8600DC71E8 /* UIAlertController+Wheels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Wheels.h"; sourceTree = "<group>"; };
+		BBA6302822375F8600DC71E8 /* UIAlertController+Wheels.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Wheels.m"; sourceTree = "<group>"; };
+		BBA6302A2237629800DC71E8 /* NSString+Wheels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Wheels.h"; sourceTree = "<group>"; };
+		BBA6302B2237629800DC71E8 /* NSString+Wheels.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Wheels.m"; sourceTree = "<group>"; };
+		BBA6302D2237634100DC71E8 /* UserInfoFormValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfoFormValidator.h; sourceTree = "<group>"; };
+		BBA6302E2237634100DC71E8 /* UserInfoFormValidator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfoFormValidator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBA62FF92237563800DC71E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61A9024CDFCFF7B5905FB33 /* libPods-WheelsTakeHome.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FA3D1C12D731E304999898B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75F2DD60CD2BD7ABE42007FC /* Pods-WheelsTakeHome.debug.xcconfig */,
+				75C7216AC564E350B9C24125 /* Pods-WheelsTakeHome.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A984138859A8EEF28097A47B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D617B9A2BF6DEA5066524DE /* libPods-WheelsTakeHome.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBA62FF32237563800DC71E8 = {
+			isa = PBXGroup;
+			children = (
+				BBA62FFE2237563800DC71E8 /* WheelsTakeFome */,
+				BBA62FFD2237563800DC71E8 /* Products */,
+				8FA3D1C12D731E304999898B /* Pods */,
+				A984138859A8EEF28097A47B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BBA62FFD2237563800DC71E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBA62FFC2237563800DC71E8 /* WheelsTakeHome.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBA62FFE2237563800DC71E8 /* WheelsTakeFome */ = {
+			isa = PBXGroup;
+			children = (
+				BBA630162237566800DC71E8 /* Application */,
+				BBA630152237566100DC71E8 /* Controllers */,
+				BBA630182237567700DC71E8 /* Networking */,
+				BBA630172237566F00DC71E8 /* Model */,
+				BBA630312237635300DC71E8 /* Extensions */,
+				BBA630302237634700DC71E8 /* Utils */,
+				BBA6301F223756B200DC71E8 /* GoogleService-Info.plist */,
+				BBA630052237563800DC71E8 /* Main.storyboard */,
+				BBA630082237563900DC71E8 /* Assets.xcassets */,
+				BBA6300A2237563900DC71E8 /* LaunchScreen.storyboard */,
+				BBA6300D2237563900DC71E8 /* Info.plist */,
+				BBA6300E2237563900DC71E8 /* main.m */,
+			);
+			path = WheelsTakeFome;
+			sourceTree = "<group>";
+		};
+		BBA630152237566100DC71E8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BBA630022237563800DC71E8 /* UserProfileViewController.h */,
+				BBA630032237563800DC71E8 /* UserProfileViewController.m */,
+				BBA63021223758F800DC71E8 /* UserInfoViewController.h */,
+				BBA63022223758F800DC71E8 /* UserInfoViewController.m */,
+				BBA630242237592400DC71E8 /* UserPictureViewController.h */,
+				BBA630252237592400DC71E8 /* UserPictureViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BBA630162237566800DC71E8 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				BBA62FFF2237563800DC71E8 /* AppDelegate.h */,
+				BBA630002237563800DC71E8 /* AppDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		BBA630172237566F00DC71E8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BBA630192237568D00DC71E8 /* User.h */,
+				BBA6301A2237568D00DC71E8 /* User.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BBA630182237567700DC71E8 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				BBA6301C223756A500DC71E8 /* NetworkUserManager.h */,
+				BBA6301D223756A500DC71E8 /* NetworkUserManager.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		BBA630302237634700DC71E8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BBA6302D2237634100DC71E8 /* UserInfoFormValidator.h */,
+				BBA6302E2237634100DC71E8 /* UserInfoFormValidator.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BBA630312237635300DC71E8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BBA6302722375F8600DC71E8 /* UIAlertController+Wheels.h */,
+				BBA6302822375F8600DC71E8 /* UIAlertController+Wheels.m */,
+				BBA6302A2237629800DC71E8 /* NSString+Wheels.h */,
+				BBA6302B2237629800DC71E8 /* NSString+Wheels.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBA62FFB2237563800DC71E8 /* WheelsTakeHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBA630122237563900DC71E8 /* Build configuration list for PBXNativeTarget "WheelsTakeHome" */;
+			buildPhases = (
+				18E8207799303180E6614891 /* [CP] Check Pods Manifest.lock */,
+				BBA62FF82237563800DC71E8 /* Sources */,
+				BBA62FF92237563800DC71E8 /* Frameworks */,
+				BBA62FFA2237563800DC71E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WheelsTakeHome;
+			productName = WheelsTakeFome;
+			productReference = BBA62FFC2237563800DC71E8 /* WheelsTakeHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBA62FF42237563800DC71E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Igor Novik";
+				TargetAttributes = {
+					BBA62FFB2237563800DC71E8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = BBA62FF72237563800DC71E8 /* Build configuration list for PBXProject "WheelsTakeHome" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBA62FF32237563800DC71E8;
+			productRefGroup = BBA62FFD2237563800DC71E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBA62FFB2237563800DC71E8 /* WheelsTakeHome */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBA62FFA2237563800DC71E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA6300C2237563900DC71E8 /* LaunchScreen.storyboard in Resources */,
+				BBA63020223756B200DC71E8 /* GoogleService-Info.plist in Resources */,
+				BBA630092237563900DC71E8 /* Assets.xcassets in Resources */,
+				BBA630072237563800DC71E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18E8207799303180E6614891 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WheelsTakeHome-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBA62FF82237563800DC71E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA6302C2237629800DC71E8 /* NSString+Wheels.m in Sources */,
+				BBA6301B2237568D00DC71E8 /* User.m in Sources */,
+				BBA6302922375F8600DC71E8 /* UIAlertController+Wheels.m in Sources */,
+				BBA6301E223756A500DC71E8 /* NetworkUserManager.m in Sources */,
+				BBA630042237563800DC71E8 /* UserProfileViewController.m in Sources */,
+				BBA6302F2237634100DC71E8 /* UserInfoFormValidator.m in Sources */,
+				BBA630262237592400DC71E8 /* UserPictureViewController.m in Sources */,
+				BBA6300F2237563900DC71E8 /* main.m in Sources */,
+				BBA630012237563800DC71E8 /* AppDelegate.m in Sources */,
+				BBA63023223758F800DC71E8 /* UserInfoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BBA630052237563800DC71E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBA630062237563800DC71E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBA6300A2237563900DC71E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBA6300B2237563900DC71E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBA630102237563900DC71E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BBA630112237563900DC71E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBA630132237563900DC71E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75F2DD60CD2BD7ABE42007FC /* Pods-WheelsTakeHome.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E5WF5C4XFG;
+				INFOPLIST_FILE = WheelsTakeFome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wheels.WheelsiOSCodingChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBA630142237563900DC71E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75C7216AC564E350B9C24125 /* Pods-WheelsTakeHome.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E5WF5C4XFG;
+				INFOPLIST_FILE = WheelsTakeFome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wheels.WheelsiOSCodingChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBA62FF72237563800DC71E8 /* Build configuration list for PBXProject "WheelsTakeHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBA630102237563900DC71E8 /* Debug */,
+				BBA630112237563900DC71E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBA630122237563900DC71E8 /* Build configuration list for PBXNativeTarget "WheelsTakeHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBA630132237563900DC71E8 /* Debug */,
+				BBA630142237563900DC71E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBA62FF42237563800DC71E8 /* Project object */;
+}

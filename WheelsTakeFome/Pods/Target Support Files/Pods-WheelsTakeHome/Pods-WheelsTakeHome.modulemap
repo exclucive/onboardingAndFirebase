@@ -1,0 +1,6 @@
+module Pods_WheelsTakeHome {
+  umbrella header "Pods-WheelsTakeHome-umbrella.h"
+
+  export *
+  module * { export * }
+}
